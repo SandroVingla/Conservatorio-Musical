@@ -3,7 +3,8 @@ module.exports = [
     id: "LVy_HUotJbU",
     title: "piano fundamentos do Jazz iniciantes | Milo Andreo",
     duration: "8 min",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "01WktcvsUYM",
@@ -15,7 +16,8 @@ module.exports = [
     id: "omSstKgUbTw",
     title: "Como tocar piano estilo Rock'n'Roll | Milo Andreo",
     duration: "7 min",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "m4Bc2w6w5Uw",
@@ -27,7 +29,8 @@ module.exports = [
     id: "l0CDLxfZoAI",
     title: "Aprenda 3 exercícios de técnica do Jordan Rudess (Dream Theater) | Milo Andreo",
     duration: "8 min",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "rAbHRScNrZA",

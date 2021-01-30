@@ -54,7 +54,7 @@ header {
 }
 
 #wrapper h1 {
-  font-size: 42px;
+  font-size: 30px;
   line-height: 52px;
   font-weight: bold;
 }
@@ -94,6 +94,8 @@ header {
 
 .card {
   background-color: #463a4e;
+  display: grid;
+  cursor: pointer;
 }
 
 .card_images_container img {
@@ -108,6 +110,7 @@ header {
 .card_info {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 } 
 
 .card_prince {
@@ -158,4 +161,20 @@ iframe {
   height: 90%;
   top: 5%;
   position: absolute;
+}
+
+/* === feature === */
+
+.featured-wrapper.card_images_container {
+  position: relative;
+}
+
+.featured {
+  position: absolute;
+  background: #f7d05f;
+  color: #111;
+  padding: 2px 8px;
+  left: 5px;
+  border-radius: 16px;
+  top: -10;
 }

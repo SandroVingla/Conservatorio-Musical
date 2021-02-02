@@ -14,6 +14,21 @@ nunjucks.configure("views", {
   noCache: true
 })
 
+server.get("/video", function(req, res) {
+  const id = req.query.id;
+
+  const video = videos.find(function(video){
+     
+      return video.id == id 
+  
+  })
+  if (!video){
+    return res.send("video not faund")
+  }
+  return res.render("video", { item: video })
+  
+})
+
 
 
 server.get("/", function(req, res) {
